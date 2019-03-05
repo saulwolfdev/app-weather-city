@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* .wrapper {
+    background: linear-gradient(270deg, #a400e1, #03e1e3, #00fff6, #a600c1);
+    background-size: 800% 800%;
+    -webkit-animation: background-product 11s ease infinite;
+    -moz-animation: background-product 11s ease infinite;
+    -o-animation: background-product 11s ease infinite;
+    animation: background-product 11s ease infinite;
+
+    @-webkit-keyframes background-product {
+        0% {
+            background-position: 0% 46%
+        }
+
+        50% {
+            background-position: 100% 55%
+        }
+
+        100% {
+            background-position: 0% 46%
+        }
+    }
+
+    @-moz-keyframes background-product {
+        0% {
+            background-position: 0% 46%
+        }
+
+        50% {
+            background-position: 100% 55%
+        }
+
+        100% {
+            background-position: 0% 46%
+        }
+    }
+
+    @-o-keyframes background-product {
+        0% {
+            background-position: 0% 46%
+        }
+
+        50% {
+            background-position: 100% 55%
+        }
+
+        100% {
+            background-position: 0% 46%
+        }
+    }
+
+    @keyframes background-product {
+        0% {
+            background-position: 0% 46%
+        }
+
+        50% {
+            background-position: 100% 55%
+        }
+
+        100% {
+            background-position: 0% 46%
+        }
+    }
+} */
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-image: url("img/sky.jpg");
+    opacity:0.8;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: stretch;
+    position: relative;
+}
+
+.item {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.79);
+    height: auto;
+    border-radius: 6px;
+    width: 50%;
+    margin: 10% 1%;
+}
+
+.title-list {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.input {
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 31px;
+    border-radius: 33px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.input:hover {
+    border: 1px solid #a600ff;
+}
+
+.input-button {
+    width: 100%;
+    background-color: #a600ff;
+    height: 34px;
+    color: #fff;
+    line-height: inherit;
+    border-radius: 33px;
+    display: block;
+}
+
+.input-button:hover {
+    color: #a600ff;
+    border: 1px solid #a600ff;
+    background-color: #fff;
+}
+
+.cont-list {
+    border-top: 1px dashed #ccc;
+}
+
+.cont-list span {
+    font-weight: 500;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.list {
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.delete {
+    width: 18%;
+    background-color: #E91E63;
+    display: block;
+    height: 26px;
+    border-radius: 32px;
+    margin-top: 11px;
+    text-align: center;
+    color: #fff;
+    padding: 3px;
+    font-weight: 300;
+}
+
+.delete:hover {
+    background-color: rgb(112, 2, 38);
+}
+
+.good-alert {
+    z-index: 1000;
+    background-color: #00daa5;
+    width: 95%;
+    height: auto;
+    padding: 1%;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+    font-weight: 100;
+    position: absolute;
+    top: 6%;
+
+}
+
+
+.good-delete {
+    z-index: 2000;
+    background-color: #008cff;
+    width: 95%;
+    height: auto;
+    padding: 1%;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+    font-weight: 100;
+    position: absolute;
+    top: 6%;
+
+}
+
+.precaution {
+    z-index: 2000;
+    background-color: #ff0000;
+    width: 95%;
+    height: auto;
+    padding: 1%;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+    font-weight: 100;
+    position: absolute;
+    top: 6%;
+}
