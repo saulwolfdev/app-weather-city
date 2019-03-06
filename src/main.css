@@ -218,3 +218,13 @@
     position: absolute;
     top: 6%;
 }
+.location{
+    text-align: center;
+    font-size: 41px;
+    font-weight: 100;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff59;
+    /* margin-bottom: 6px; */
+    padding-bottom: 8px;
+}
