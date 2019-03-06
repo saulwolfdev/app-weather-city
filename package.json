@@ -32,6 +32,9 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.3.4",
+    "babel-plugin-syntax-async-functions": "^6.13.0"
+  },
   "description": ""
 }
