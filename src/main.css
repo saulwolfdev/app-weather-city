@@ -78,7 +78,7 @@
     width: 100%;
     overflow: hidden;
     background-image: url("img/sky.jpg");
-    opacity:0.8;
+    opacity: 0.8;
 }
 
 .container {
@@ -186,9 +186,7 @@
     font-weight: 100;
     position: absolute;
     top: 6%;
-
 }
-
 
 .good-delete {
     z-index: 2000;
@@ -202,7 +200,6 @@
     font-weight: 100;
     position: absolute;
     top: 6%;
-
 }
 
 .precaution {
@@ -218,7 +215,8 @@
     position: absolute;
     top: 6%;
 }
-.location{
+
+.item-list, .string, .description, .location {
     text-align: center;
     font-size: 41px;
     font-weight: 100;
@@ -227,4 +225,19 @@
     border-bottom: 1px solid #ffffff59;
     /* margin-bottom: 6px; */
     padding-bottom: 8px;
+}
+
+.description {
+    font-size: 30px;
+    text-transform: initial;
+}
+
+.string {
+    font-size: 25px;
+    text-transform: initial;
+}
+
+.item-list {
+    font-size: 20px;
+    text-transform: initial;
 }
