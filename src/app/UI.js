@@ -7,7 +7,7 @@ export class UI {
         this.wind = document.querySelector("#weather-wind")
     }
     render(weather) {
-        this.location.textContent = weather.name + " / " + weather.sys.country;
+        this.location.textContent = weather.name + "/" + weather.sys.country;
         this.description.textContent = weather.weather[0]["description"]
         this.string.textContent=weather.main.temp + " ºC"
         this.humidity.textContent= " Humidity " + weather.main.humidity  + " % "
