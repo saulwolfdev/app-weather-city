@@ -77,7 +77,8 @@
 .wrapper {
     width: 100%;
     overflow: hidden;
-    background-image: url("img/sky.jpg");
+    /* background-image: url("img/sky.jpg"); */
+	background-color: gray;
     opacity: 0.8;
 }
 
@@ -120,12 +121,12 @@
 }
 
 .input:hover {
-    border: 1px solid #a600ff;
+    border: 1px solid #0004ff;
 }
 
 .input-button {
     width: 100%;
-    background-color: #a600ff;
+    background-color: #0004ff;
     height: 34px;
     color: #fff;
     line-height: inherit;
@@ -134,8 +135,8 @@
 }
 
 .input-button:hover {
-    color: #a600ff;
-    border: 1px solid #a600ff;
+    color: #0004ff;
+    border: 1px solid #0004ff;
     background-color: #fff;
 }
 
