@@ -1,19 +1,12 @@
-const {
-    Weather
-} = require("./Weather")
-const {
-    UI
-} = require("./UI")
-const {
-    Store
-} = require("./Storage")
-import style from "../main.css"
-
-const store = new Store()
+const {Weather} = require("./Weather");
+const {UI} = require("./UI");
+const {Store} = require("./Storage");
+import style from "../main.css";
+const store = new Store();
 const {
     city,
     countryCode
-} = store.getLocationData()
+} = store.getLocationData();
 
 const ui = new UI()
 const weather = new Weather(city, countryCode)
